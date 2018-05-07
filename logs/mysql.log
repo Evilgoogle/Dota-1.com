@@ -1,0 +1,1143 @@
+SELECT *,(SELECT COUNT(`id` FROM `modules`)) as `child` FROM `modules`
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `modules`)) as `child` FROM `modules`' at line 1
+--file: C:\OpenServer\domains\goframework.last\modules\admin\module\main.php
+--line: 45
+--date: 2017-12-25 03:59:21
+===================================
+
+INSERT INTO `modules` SET
+            `parent`      = '9',
+			`href`        = '/doooood',
+			`img`         = 'doooood',
+			`name`        = 'doooood',
+			`seo_url`     = 'doooood',
+			`meta_title`  = 'sdsd',
+			`meta_des`    = 'fsdsfs',
+			`meta_key`    = 'fsf',
+		
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 9
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 56
+--date: 2018-01-03 06:30:07
+===================================
+
+INSERT INTO `templates` SET
+                    `module_id` = 0,
+                    `template`  = 'one',
+                    `view`      = '',
+                    `container` = 'div',
+                    `itemscope` = '52550',
+                    `tegh`      = 'h2',
+                    `header`    = '4045404'
+                
+--Data truncated for column 'view' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 68
+--date: 2018-01-03 06:30:31
+===================================
+
+INSERT INTO `templates` SET
+                    `module_id` = 0,
+                    `template`  = 'one',
+                    `view`      = '',
+                    `container` = 'div',
+                    `itemscope` = '52550',
+                    `tegh`      = 'h2',
+                    `header`    = '4045404'
+                
+--Data truncated for column 'view' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 68
+--date: 2018-01-03 06:33:12
+===================================
+
+INSERT INTO `data` SET
+                        `module_id` = 0,
+                        `template_id`  = 0,
+                        `text`      = '<p>dfgdfg dfgd fgdf gdfgdfg dfgdf gd</p>\r\n\r\n<p>fgd&nbsp;</p>\r\n\r\n<p>fd</p>\r\n\r\n<p>fgd gdgdgd</p>\r\n'
+                    
+--Field 'name' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 80
+--date: 2018-01-03 06:38:14
+===================================
+
+INSERT INTO `data` SET
+                        `module_id` = 21,
+                        `template_id`  = 13,
+                        `text`      = '<p>dfgdfg dfgd fgdf gdfgdfg dfgdf gd</p>\r\n\r\n<p>fgd&nbsp;</p>\r\n\r\n<p>fd</p>\r\n\r\n<p>fgd gdgdgd</p>\r\n'
+                    
+--Field 'date' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 80
+--date: 2018-01-03 07:10:10
+===================================
+
+INSERT INTO `data` SET
+                        `module_id`    = 22,
+                        `template_id`  = 15,
+                        `text`         = '<p>dfgdfg dfgd fgdf gdfgdfg dfgdf gd</p>\r\n\r\n<p>fgd&nbsp;</p>\r\n\r\n<p>fd</p>\r\n\r\n<p>fgd gdgdgd</p>\r\n',
+                        `date`         = NOW()
+                    
+--Field 'preview' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 81
+--date: 2018-01-03 07:11:51
+===================================
+
+INSERT INTO `magazine_properties` SET
+                                      `data_id`     = 35,
+                                      `cat_id`      = 29,
+                                      `properties`  = '111'
+                                    
+--Unknown column 'data_id' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 105
+--date: 2018-01-04 06:21:38
+===================================
+
+INSERT INTO `modules` SET
+            `parent`      = '45',
+			`href`        = '/guidesddddddd',
+			`img`         = 'guides',
+			`name`        = 'guides',
+			`seo_url`     = 'guidesddddddd',
+			`meta_title`  = 'dfgdfgdfgdfdfg',
+			`meta_des`    = 'guidesguides',
+			`meta_key`    = 'guidesguides'
+		
+--Duplicate entry 'guides' for key 'ix_name'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 61
+--date: 2018-01-08 07:00:24
+===================================
+
+INSERT INTO `templates` SET
+                    `module_id` = 50,
+                    `template`  = 'subcat',
+                    `view`      = 'none',
+                    `container` = '',
+                    `itemscope` = '',
+                    `tegh`      = '',
+                    `header`    = ''
+                
+--Data truncated for column 'template' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 75
+--date: 2018-01-08 09:19:34
+===================================
+
+INSERT INTO `templates` SET
+                            `module_id` = 52,
+                            `template`  = 'table',
+                            `view`      = 'none',
+                            `container` = '',
+                            `itemscope` = '',
+                            `tegh`      = '',
+                            `header`    = ''
+                        
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 79
+--date: 2018-01-08 09:44:50
+===================================
+
+INSERT INTO `templates` SET
+                            `module_id` = 52,
+                            `template`  = 'gal',
+                            `view`      = 'none',
+                            `container` = '',
+                            `itemscope` = '',
+                            `tegh`      = '',
+                            `header`    = ''
+                        
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-08 10:09:30
+===================================
+
+INSERT INTO `templates` SET
+                        `module_id` = 52,
+                        `template`  = 'table',
+                        `view`      = 'none',
+                        `container` = '',
+                        `itemscope` = '',
+                        `tegh`      = '',
+                        `header`    = ''
+                    
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-08 10:22:02
+===================================
+
+INSERT INTO `templates` SET
+                            `module_id` = 52,
+                            `template`  = 'table',
+                            `view`      = 'none',
+                            `container` = '',
+                            `itemscope` = '',
+                            `tegh`      = '',
+                            `header`    = ''
+                        
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-08 10:26:33
+===================================
+
+INSERT INTO `templates` SET
+                            `module_id` = 52,
+                            `template`  = 'table',
+                            `view`      = 'none',
+                            `container` = '',
+                            `itemscope` = '',
+                            `tegh`      = '',
+                            `header`    = ''
+                        
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-08 10:40:51
+===================================
+
+INSERT INTO `templates` SET
+                                `module_id` = 52,
+                                `template`  = 'gal',
+                                `view`      = 'none',
+                                `container` = '',
+                                `itemscope` = '',
+                                `tegh`      = '',
+                                `header`    = ''
+                            
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-08 11:47:39
+===================================
+
+INSERT INTO `templates` SET
+                                `module_id` = 52,
+                                `template`  = 'magazine',
+                                `view`      = 'none',
+                                `container` = '',
+                                `itemscope` = '',
+                                `tegh`      = '',
+                                `header`    = ''
+                            
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-08 12:09:21
+===================================
+
+INSERT INTO `templates` SET
+                                `module_id` = 52,
+                                `template`  = 'magazine',
+                                `view`      = 'none',
+                                `container` = '',
+                                `itemscope` = '',
+                                `tegh`      = '',
+                                `header`    = ''
+                            
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-08 12:14:19
+===================================
+
+INSERT INTO `templates` SET
+                                `module_id` = 52,
+                                `template`  = 'magazine',
+                                `view`      = 'none',
+                                `container` = '',
+                                `itemscope` = '',
+                                `tegh`      = '',
+                                `header`    = ''
+                            
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-08 12:15:48
+===================================
+
+INSERT INTO `magazine_properties` SET
+                                                    `cat_id`      = 103,
+                                                    `properties`  = '11'
+                                                
+--Field 'data_id' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 161
+--date: 2018-01-08 12:19:19
+===================================
+
+INSERT INTO `templates` SET
+                                `module_id` = 12,
+                                `template`  = 'magazine',
+                                `view`      = 'none',
+                                `container` = '',
+                                `itemscope` = '',
+                                `tegh`      = '',
+                                `header`    = ''
+                            
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-09 03:37:49
+===================================
+
+INSERT INTO `templates` SET
+                                `module_id` = 12,
+                                `template`  = 'magazine',
+                                `view`      = 'none',
+                                `container` = '',
+                                `itemscope` = '',
+                                `tegh`      = '',
+                                `header`    = ''
+                            
+--Data truncated for column 'container' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 80
+--date: 2018-01-09 03:41:13
+===================================
+
+DELETE FROM `templates` WHERE `id` = 9
+--Unknown column 'id' in 'where clause'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\del_template.php
+--line: 3
+--date: 2018-01-10 03:19:37
+===================================
+
+DELETE FROM `templates` WHERE `id` = 9
+--Unknown column 'id' in 'where clause'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\del_template.php
+--line: 3
+--date: 2018-01-10 03:23:00
+===================================
+
+DELETE FROM `templates` WHERE `id` = 9
+--Unknown column 'id' in 'where clause'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\del_template.php
+--line: 3
+--date: 2018-01-10 03:23:11
+===================================
+
+DELETE FROM `templates` WHERE `id` = 9
+--Unknown column 'id' in 'where clause'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\del_template.php
+--line: 3
+--date: 2018-01-10 03:35:05
+===================================
+
+DELETE FROM `templates` WHERE `id` = 9
+--Unknown column 'id' in 'where clause'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\del_template.php
+--line: 3
+--date: 2018-01-10 03:36:04
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '1',
+			`template_id`  = '5',
+			`cat`          = '4',
+			`name`         = 'Гал',
+			`date`         = NOW(),
+			`mini`         = '/uploads/img/20180117-040426table_mini828970.jpg',
+			`preview`      = '/uploads/img/20180117-040426table_preview426596.jpg',
+			`img`          = '/uploads/img/20180117-040426table_img176519.jpg',
+			`itemprop`     = 'Гал'
+		
+--Field 'text' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\gal_add.php
+--line: 62
+--date: 2018-01-17 04:04:27
+===================================
+
+SELECT `id` FROM `data` WHERE `module_id` = '1' AND `template_id`  = '6',
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\carusel_add.php
+--line: 12
+--date: 2018-01-17 05:08:25
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '12',
+			`template_id`  = '12',
+			`cat`          = '0',
+			`name`         = 'sdsds',
+			`text`         = '',
+			`date`         = NOW(),
+			`mini`         = '/uploads/img/20180119-053238magazine_mini406353.jpg',
+			`itemprop`     = 'sdsds'
+		
+--Field 'des' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\magazine_add.php
+--line: 128
+--date: 2018-01-19 05:32:38
+===================================
+
+UPDATE `data` SET
+          `text` = '<p>Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada Это игра от компаний beshada</p>\r\n',
+          `itemprop` = '54656',
+          `date` = NOW()
+          WHERE `template_id` = 2,
+        
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 5
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\data.php
+--line: 9
+--date: 2018-01-19 06:29:49
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '12',
+			`template_id`  = '9',
+			`cat`          = '0',
+			`name`         = 'fdfgdf',
+			`text`         = '<p>dfgdfgdfdf</p>',
+			`date`         = NOW(),
+			`mini`         = '/uploads/img/20180119-073439table_mini305718.jpg',
+			`preview`      = '/uploads/img/20180119-073439table_preview624267.jpg',
+			`itemprop`     = 'dfgdfg'
+		
+--Field 'des' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\table_add.php
+--line: 63
+--date: 2018-01-19 07:34:39
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '1',
+			`template_id`  = '5',
+			`cat`          = '4',
+			`name`         = 'sgsd',
+			`text`         = '',
+			`date`         = NOW(),
+			`mini`         = '/uploads/img/20180119-074505gal_mini648657.png',
+			`preview`      = '/uploads/img/20180119-074506gal_preview829656.png',
+			`img`          = '/uploads/img/20180119-074506gal_img730203.png',
+			`itemprop`     = 'gsdgsdgsg'
+		
+--Field 'des' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\gal_add.php
+--line: 63
+--date: 2018-01-19 07:45:06
+===================================
+
+SELECT `id`,`parent`,`title` FROM `parents` WHERE `id` = 
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\main.php
+--line: 120
+--date: 2018-01-20 03:50:08
+===================================
+
+SELECT `id`,`parent`,`title` FROM `parents` WHERE `id` = 0
+--Table 'dota.parents' doesn't exist
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\main.php
+--line: 131
+--date: 2018-01-20 03:59:07
+===================================
+
+
+--
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\main.php
+--line: 132
+--date: 2018-01-20 04:38:03
+===================================
+
+
+--
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\main.php
+--line: 132
+--date: 2018-01-20 04:38:39
+===================================
+
+
+--
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\main.php
+--line: 132
+--date: 2018-01-20 04:38:42
+===================================
+
+
+--
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\main.php
+--line: 132
+--date: 2018-01-20 04:39:01
+===================================
+
+SELECT `id`,`parent`,`name` FROM `modules` WHERE `id` = 0
+--MySQL server has gone away
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\main.php
+--line: 131
+--date: 2018-01-20 04:46:25
+===================================
+
+INSERT INTO `data` SET
+                            `module_id`    = 12,
+                            `template_id`  = 2,
+                            `text`         = '<p>ddd</p>\r\n',
+                            `date`         = NOW(),
+                            `itemprop`     = 'dd'
+                        
+--Field 'des' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 119
+--date: 2018-01-21 06:31:46
+===================================
+
+UPDATE `templates` SET
+                            `module_id` = 16,
+                            `template`  = 'carusel',
+                            `view`      = 'none',
+                            `container` = 'div',
+                            `itemscope` = '',
+                            `tegh`      = '',
+                            `header`    = 'Dota'
+                            WHERE `template_id` = '6'
+                        
+--Data truncated for column 'tegh' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 98
+--date: 2018-01-23 04:41:00
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '9',
+			`template_id`  = '9',
+			`cat`          = '0',
+			`name`         = 'dddd',
+			`des`          = '<p><em>DotA</em>&nbsp;&mdash; командная тактико-стратегическая игра с элементами&nbsp;<a href=\"https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0\">компьютерной ролевой игры</a>, в которой каждый игрок управляет одним героем, и, если герой имеет соответствующие способности, некоторым количеством дополнительных существ. Во время&nbsp;<a href=\"https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%B9%D0%BC%D0%BF%D0%BB%D0%B5%D0%B9\">игрового процесса</a></p>',
+			`text`         = '<p><em>DotA</em>&nbsp;&mdash; командная тактико-стратегическая игра с элементами&nbsp;<a href=\"https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D0%BD%D0%B0%D1%8F_%D1%80%D0%BE%D0%BB%D0%B5%D0%B2%D0%B0%D1%8F_%D0%B8%D0%B3%D1%80%D0%B0\">компьютерной ролевой игры</a>, в которой каждый игрок управляет одним героем, и, если герой имеет соответствующие способности, некоторым количеством дополнительных существ. Во время&nbsp;<a href=\"https://ru.wikipedia.org/wiki/%D0%93%D0%B5%D0%B9%D0%BC%D0%BF%D0%BB%D0%B5%D0%B9\">игрового процесса</a></p>',
+			`date`         = NOW(),
+			`mini`         = '/uploads/mini/20180202-083734table-mini426486.jpg',
+			`preview`      = '/uploads/mini/20180202-083734table-preview602624.jpg',
+			`itemprop`     = 'ddd'
+		
+--Data too long for column 'des' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\table_add.php
+--line: 91
+--date: 2018-02-02 08:37:34
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '9',
+			`template_id`  = '9',
+			`cat`          = '0',
+			`name`         = 'ddd',
+			`des`          = '<p>DotA &mdash; командная тактико-стратегическая игра с элементами компьютерной ролевой игры, в которой каждый игрок управляет одним героем, и, если герой имеет соответствующие способности, некоторым количеством дополнительных существ. DotA &mdash; командная тактико-стратегическая игра с элементами компьютерной ролевой игры, в которой каждый игрок управляет одним героем, и, если герой имеет соответствующие способности, некоторым количеством дополнительных существ.</p>',
+			`text`         = '<p>DotA &mdash; командная тактико-стратегическая игра с элементами компьютерной ролевой игры, в которой каждый игрок управляет одним героем, и, если герой имеет соответствующие способности, некоторым количеством дополнительных существ.DotA &mdash; командная тактико-стратегическая игра с элементами компьютерной ролевой игры, в которой каждый игрок управляет одним героем, и, если герой имеет соответствующие способности, некоторым количеством дополнительных существ.DotA &mdash; командная тактико-стратегическая игра с элементами компьютерной ролевой игры, в которой каждый игрок управляет одним героем, и, если герой имеет соответствующие способности, некоторым количеством дополнительных существ.DotA &mdash; командная тактико-стратегическая игра с элементами компьютерной ролевой игры, в которой каждый игрок управляет одним героем, и, если герой имеет соответствующие способности, некоторым количеством дополнительных существ.</p>',
+			`date`         = NOW(),
+			`mini`         = '/uploads/mini/20180202-083951table-mini527642.jpg',
+			`preview`      = '/uploads/mini/20180202-083951table-preview224008.jpg',
+			`itemprop`     = 'dddd'
+		
+--Data too long for column 'des' at row 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\table_add.php
+--line: 91
+--date: 2018-02-02 08:39:51
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '9',
+			`template_id`  = '9',
+			`cat`          = '0',
+			`name`         = 'sdsdf',
+			`des`          = 'fsdfsdfsdfsdfsdfsdfsdfs',
+			`text`         = '<p>sfsdfsdfsdf</p>',
+			`date`         = NOW(),
+			`mini`         = '/uploads/mini/20180204-080528table-mini223348.jpg',
+			`preview`      = '/uploads/mini/20180204-080528table-preview116918.jpg',
+			`itemprop_pic`     = 'sdg',
+			`itemprop_name`    = '',
+			`itemprop_des`     = '',
+			`itemprop_text`    = 'dgs',
+			`itemprop_date`    = 'sdsds',
+			`itemprop_views`   = '',
+			`itemprop_url`     = '',
+		
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 17
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\table_add.php
+--line: 103
+--date: 2018-02-04 08:05:28
+===================================
+
+SELECT `templates`.`template_id`,`templates`.`template`, `templates`.`view`, `templates`.`container`, `templates`.`itemscope`, `templates`.`tegh`, `templates`.`header`, `data`.`text`, `data`.`itemprop` FROM `templates` LEFT JOIN `data` ON `templates`.`template_id` = `data`.`template_id` AND `templates`.`template` = 'one' WHERE `templates`.`module_id` = 9
+--Unknown column 'data.itemprop' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\edit.php
+--line: 212
+--date: 2018-02-04 08:45:51
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '9',
+			`template_id`  = '10',
+			`cat`          = '0',
+			`name`         = 'dod',
+			`des`          = '',
+			`text`         = '',
+			`date`         = NOW(),
+			`mini`         = '/uploads/mini/20180204-092845gal-mini911972.jpg',
+			`preview`      = '/uploads/mini/20180204-092845gal-preview701831.jpg',
+			`img`          = '/uploads/full/20180204-092845gal-full901150.jpg',
+			`itemprop_pic`      = '2123135',
+			`itemprop_author`   = 'sdf',
+			`itemprop_date`     = 'sdf'
+		
+--Field 'itemprop_name' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\gal_add.php
+--line: 98
+--date: 2018-02-04 09:28:45
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '9',
+			`template_id`  = '11',
+			`name`         = 'sdfsdfsdfdfsd',
+			`des`          = '',
+			`text`         = '',
+			`date`         = NOW(),
+			`mini`         = '/uploads/mini/20180205-082104carusel-mini538409.jpg',
+			`img`          = '/uploads/mini/20180205-082104carusel-preview385067.jpg',
+			`itemprop`     = 'fsdfsdf'
+		
+--Unknown column 'itemprop' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\carusel_add.php
+--line: 93
+--date: 2018-02-05 08:21:05
+===================================
+
+UPDATE `data` SET
+			`module_id`    = '9',
+			`template_id`  = '12',
+			`cat`          = '0',
+			`name`         = 'sdfsdf',
+			`text`         = '<p>sdfsdf</p>',
+			`date`         = NOW(),
+			`mini`         = '/uploads/mini/20180205-101648magazine566946.jpg',
+			`itemprop`     = ''
+			WHERE `id`     = '65'
+		
+--Unknown column 'itemprop' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\magazine_edit.php
+--line: 185
+--date: 2018-02-06 10:45:38
+===================================
+
+SELECT * FROM `magazine_properties`
+--Table 'dota.magazine_properties' doesn't exist
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\magazine_edit.php
+--line: 208
+--date: 2018-02-10 06:29:54
+===================================
+
+INSERT INTO `data` SET
+                `data_id`  = '74',
+                `prop_id`  = '4'
+		    
+--Unknown column 'data_id' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\magazine_add.php
+--line: 125
+--date: 2018-02-10 07:36:40
+===================================
+
+SELECT DISTINCT `data_id` FROM `data_properties` WHERE `prop_id` IN ()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 3
+--date: 2018-02-10 07:45:11
+===================================
+
+SELECT DISTINCT `data_id` FROM `data_properties` WHERE `prop_id` IN ()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 3
+--date: 2018-02-10 07:45:45
+===================================
+
+SELECT DISTINCT `data_id` FROM `data_properties` WHERE `prop_id` IN ()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 3
+--date: 2018-02-10 07:45:55
+===================================
+
+SELECT DISTINCT `data_id` FROM `data_properties` WHERE `prop_id` IN ()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 3
+--date: 2018-02-10 07:46:54
+===================================
+
+UPDATE `data_properties` SET
+                                `data_id`  = 75,
+                                `prop_id`  = 1,
+                                `cat_id`   = 13,
+                                `properties`    = 'Dell',
+                                WHERE `prop_id` = 1
+                            
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `prop_id` = 1' at line 6
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\magazine_edit.php
+--line: 211
+--date: 2018-02-12 04:02:02
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:10:13
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:18:20
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:23:12
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:47:07
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:49:40
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:51:06
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:51:41
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:51:58
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:53:03
+===================================
+
+SELECT * FROM `data` WHERE `id` IN()
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\magazine_filter.php
+--line: 15
+--date: 2018-02-19 05:57:39
+===================================
+
+INSERT INTO `data_properties` SET
+                `data_id`  = 76,
+                `prop_id`  = 1
+		    
+--Field 'cat_id' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\data\magazine_add.php
+--line: 136
+--date: 2018-02-22 07:16:34
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '9',
+			`template_id`  = '9',
+			`cat`          = '0',
+			`name`         = 'sdfsdf',
+			`des`          = 'dfhdfhsdf',
+			`text`         = '<p>sdfsfsdf</p>',
+			`date`         = NOW(),
+			`mini`         = '/uploads/mini/20180226-115251table-mini423574.jpg',
+			`preview`      = '/uploads/mini/20180226-115251table-preview650909.jpg',
+			`itemprop_pic`     = '',
+			`itemprop_name`    = '',
+			`itemprop_des`     = '',
+			`itemprop_text`    = '',
+			`itemprop_date`    = '',
+			`itemprop_views`   = '',
+			`itemprop_url`     = ''
+		
+--Field 'itemprop_price' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\mods\add_table.php
+--line: 103
+--date: 2018-02-26 11:52:51
+===================================
+
+INSERT INTO `data` SET
+                            `module_id`    = 10,
+                            `template_id`  = 18,
+                            `des`          = '',
+                            `text`         = '',
+                            `date`         = NOW(),
+                            `itemprop`     = ''
+                        
+--Unknown column 'itemprop' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\admin\module\add.php
+--line: 127
+--date: 2018-03-02 02:15:36
+===================================
+
+
+			INSERT INTO `fw_users` SET
+			`login` = '',
+			`password` = '$2y$10$DQFSEw7gRkD6fj1Irz962OC7zAfhFo7dN6.aSDlyQr5vXIrn3DfP6',
+			`email` = ''
+		
+--Field 'name' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\vendor\schoolphp\library\User\Registration.php
+--line: 13
+--date: 2018-03-02 05:03:27
+===================================
+
+
+			INSERT INTO `fw_users` SET
+			`login` = '',
+			`password` = '$2y$10$4HPMB23fnW6dO6NGBOObUeDxCakieh0YrTBaK8CVTX5qM8qJTVNAu',
+			`email` = ''
+		
+--Field 'name' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\vendor\schoolphp\library\User\Registration.php
+--line: 13
+--date: 2018-03-02 05:03:38
+===================================
+
+
+			INSERT INTO `fw_users` SET
+			`login` = '',
+			`password` = '$2y$10$2mkijBiHQzhTz6nBewsFXuZY8Kt1w8mxiVYT1dc34ke16g7D31l9y',
+			`email` = ''
+		
+--Field 'name' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\vendor\schoolphp\library\User\Registration.php
+--line: 13
+--date: 2018-03-02 05:42:03
+===================================
+
+,`name` = 'Bankay',`skype` = 'bankay_kurosaki',`date` = NOW(),`about` = '<ul>\r\n	<li><strong><code>PASSWORD_DEFAULT</code></strong>&nbsp;- используется алгоритм bcrypt (по умолчанию с PHP 5.5.0). Обратите внимание, что используемый алгоритм может со временем меняться на более сильный, когда таковой добавляется в PHP. Соответственно и длина результата может со временем меняться. В связи с этим рекомендуется выбирать длину поля для хранения в базе данных более 60 символов (255 символов могло быть хорошим вариантом).</li>\r\n</ul>\r\n'
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`name` = 'Bankay',`skype` = 'bankay_kurosaki',`date` = NOW(),`about` = '<ul>\r\n' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\library\MyLibs\Registration.php
+--line: 30
+--date: 2018-03-02 07:55:44
+===================================
+
+,`name` = 'bankay',`skype` = 'bankay',`date` = NOW(),`about` = ''
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`name` = 'bankay',`skype` = 'bankay',`date` = NOW(),`about` = ''' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\library\MyLibs\Registration.php
+--line: 30
+--date: 2018-03-02 07:56:37
+===================================
+
+
+			INSERT INTO `fw_users` SET
+			`login` = 'bankay',
+			`password` = 'waJtdhLKRW0Fs',
+			`email` = 'bankay@dfg.dsd'
+			
+		
+--Field 'name' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\library\MyLibs\Registration.php
+--line: 30
+--date: 2018-03-02 07:57:31
+===================================
+
+
+			INSERT INTO `fw_users` SET
+			`login` = 'bankay',
+			`password` = 'waJtdhLKRW0Fs',
+			`email` = 'bankay@dfg.dsd'
+			
+		
+--Field 'date' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\library\MyLibs\Registration.php
+--line: 30
+--date: 2018-03-02 07:58:25
+===================================
+
+
+			INSERT INTO `fw_users` SET
+			`login` = 'bankay',
+			`password` = 'waJtdhLKRW0Fs',
+			`email` = 'bankay@dfg.dsd'
+			
+		
+--Field 'img' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\library\MyLibs\Registration.php
+--line: 30
+--date: 2018-03-02 07:58:47
+===================================
+
+
+			INSERT INTO `fw_users` SET
+			`login` = 'bankay',
+			`password` = 'waJtdhLKRW0Fs',
+			`email` = 'bankay@dfg.dsd'
+			
+		
+--Field 'about' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\library\MyLibs\Registration.php
+--line: 30
+--date: 2018-03-02 07:59:01
+===================================
+
+,`name` = 'bankay',`skype` = 'bankay',`date` = NOW(),`about` = ''
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`name` = 'bankay',`skype` = 'bankay',`date` = NOW(),`about` = ''' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\library\MyLibs\Registration.php
+--line: 30
+--date: 2018-03-02 08:01:58
+===================================
+
+`name` = 'bankay',`skype` = 'bankay',`date` = NOW(),`about` = ''
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`name` = 'bankay',`skype` = 'bankay',`date` = NOW(),`about` = ''' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\library\MyLibs\Registration.php
+--line: 30
+--date: 2018-03-02 08:03:08
+===================================
+
+INSERT INTO `fw_users` SET
+			`login` = 'dfd',
+			`password` = 'dfd',
+			`email` = 'dfd,'`name` = 'bankay',`skype` = 'bankay',`date` = NOW(),`about` = ''
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`name` = 'bankay',`skype` = 'bankay',`date` = NOW(),`about` = ''' at line 4
+--file: C:\Openserver\OpenServer\domains\goframework.last\library\MyLibs\Registration.php
+--line: 33
+--date: 2018-03-02 08:05:27
+===================================
+
+
+				SELECT `access`,`id`,`role`,`login`,`avatar`
+				FROM `fw_users`
+				WHERE `id` = '3'
+			
+--Unknown column 'avatar' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\vendor\schoolphp\library\User\User.php
+--line: 22
+--date: 2018-03-02 15:31:05
+===================================
+
+
+				SELECT `access`,`id`,`role`,`login`,`avatar`
+				FROM `fw_users`
+				WHERE `id` = '3'
+			
+--Unknown column 'avatar' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\vendor\schoolphp\library\User\User.php
+--line: 22
+--date: 2018-03-03 02:41:02
+===================================
+
+
+				SELECT `access`,`id`,`role`,`login`,`avatar`
+				FROM `fw_users`
+				WHERE `id` = '3'
+			
+--Unknown column 'avatar' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\vendor\schoolphp\library\User\User.php
+--line: 22
+--date: 2018-03-03 02:53:30
+===================================
+
+
+				SELECT `access`,`id`,`role`,`login`,`name`,`email`,`date`,`skype`,`ip`,`abaout`
+				FROM `fw_users`
+				WHERE `id` = '1'
+			
+--Unknown column 'abaout' in 'field list'
+--file: C:\Openserver\OpenServer\domains\goframework.last\vendor\schoolphp\library\User\User.php
+--line: 22
+--date: 2018-03-05 07:22:35
+===================================
+
+INSERT INTO `orders` SET
+        `name`     = '',
+        `data_id`  = ,
+        `price`    = '',
+        `user_id`  = '201829516261'
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
+        `price`    = '',
+        `user_id`  = '201829516261'' at line 3
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\buy.php
+--line: 10
+--date: 2018-03-09 06:47:05
+===================================
+
+INSERT INTO `orders` SET
+        `name`     = '',
+        `data_id`  = ,
+        `price`    = '',
+        `user_id`  = 'nosession'
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '
+        `price`    = '',
+        `user_id`  = 'nosession'' at line 3
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\buy.php
+--line: 10
+--date: 2018-03-09 06:55:18
+===================================
+
+INSERT INTO `orders` SET
+        `data_id`  = 65,
+        `user_id`  = '127.0.0.1nosession'
+    
+--Duplicate entry '65' for key 'ixData_id'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\buy.php
+--line: 7
+--date: 2018-03-09 18:33:36
+===================================
+
+INSERT INTO `orders` SET
+        `data_id`  = 79,
+        `user_id`  = '127.0.0.1nosession'
+    
+--Duplicate entry '79' for key 'ixData_id'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\buy.php
+--line: 7
+--date: 2018-03-09 18:33:37
+===================================
+
+INSERT INTO `orders` SET
+        `data_id`  = 80,
+        `user_id`  = '127.0.0.1nosession'
+    
+--Duplicate entry '80' for key 'ixData_id'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\buy.php
+--line: 7
+--date: 2018-03-09 18:33:38
+===================================
+
+SELECT `orders`.*, `data`.`id` as `artikul`, `data`.`name`, `data`.`des`, `data`.`price`,  
+        FROM `orders`
+        JOIN `data` ON `orders`.`data_id` = `data`.`id`
+        WHERE `user_id` = '127.0.0.1nosession'
+    
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `orders`
+        JOIN `data` ON `orders`.`data_id` = `data`.`id`
+        ' at line 2
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\shop\shop.php
+--line: 8
+--date: 2018-03-10 07:57:53
+===================================
+
+SELECT `name`, `price`, `id`,  FROM `data` WHERE `id` IN (\'79,65,80\')
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `data` WHERE `id` IN (\'79,65,80\')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\shop\ordering.php
+--line: 33
+--date: 2018-03-12 08:48:20
+===================================
+
+SELECT `name`, `price`, `id`,  FROM `data` WHERE `id` IN ('79,65,80')
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `data` WHERE `id` IN ('79,65,80')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\shop\ordering.php
+--line: 33
+--date: 2018-03-12 08:48:36
+===================================
+
+SELECT `name`, `price`, `id`,  FROM `data` WHERE `id` IN ('79,65,80')
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `data` WHERE `id` IN ('79,65,80')' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\shop\ordering.php
+--line: 33
+--date: 2018-03-12 08:50:07
+===================================
+
+SELECT `id` FROM `orders` WHERE `data_id` = 80 AND `user_id` = 127.0.0.1nosession
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.0.1nosession' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\buy.php
+--line: 3
+--date: 2018-03-15 04:33:13
+===================================
+
+INSERT INTO `orders` SET
+            `data_id`  = 79,
+            `user_id`  = '127.0.0.1nosession'
+        
+--Duplicate entry '79' for key 'ixData_id'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\buy.php
+--line: 15
+--date: 2018-03-15 04:35:03
+===================================
+
+INSERT INTO `orders` SET
+            `data_id`  = 79,
+            `user_id`  = '127.0.0.1nosession'
+        
+--Duplicate entry '79' for key 'ixData_id'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\ajax\buy.php
+--line: 15
+--date: 2018-03-15 04:35:17
+===================================
+
+DELETE FROM `orders` WHERE `data_id` = 0 LIMIT 
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\shop\shop.php
+--line: 8
+--date: 2018-03-15 05:53:14
+===================================
+
+INSERT INTO `data` SET
+			`module_id`    = '11',
+			`template_id`  = '19',
+			`cat`          = '0',
+			`name`         = 'guitar-world',
+			`des`          = 'Медиа-материалы, размещенные на портале тяжелой музыки DARK-WORLD.ru, предназначены исключительно для ознакомления. Мы призываем к поддержке исполнителей и уважению их труда. Приобретайте лицензионную продукцию тех материалов, которые понравились. Администрация проекта не несет ответственности за ваши возможные нарушения. ﻿',
+			`text`         = '<p>Медиа-материалы, размещенные на портале тяжелой музыки DARK-WORLD.ru, предназначены исключительно для ознакомления. Мы призываем к поддержке исполнителей и уважению их труда. Приобретайте лицензионную продукцию тех материалов, которые понравились. Администрация проекта не несет ответственности за ваши возможные нарушения. ﻿</p>\r\n\r\n<p>Медиа-материалы, размещенные на портале тяжелой музыки DARK-WORLD.ru, предназначены исключительно для ознакомления. Мы призываем к поддержке исполнителей и уважению их труда. Приобретайте лицензионную продукцию тех материалов, которые понравились. Администрация проекта не несет ответственности за ваши возможные нарушения. ﻿</p>\r\n\r\n<p>Медиа-материалы, размещенные на портале тяжелой музыки DARK-WORLD.ru, предназначены исключительно для ознакомления. Мы призываем к поддержке исполнителей и уважению их труда. Приобретайте лицензионную продукцию тех материалов, которые понравились. Администрация проекта не несет ответственности за ваши возможные нарушения. ﻿</p>',
+			`date`         = NOW(),
+			`mini`         = '/uploads/mini/20180410-055717table-mini829437.jpg',
+			`preview`      = '/uploads/mini/20180410-055717table-preview550851.jpg',
+			`itemprop_pic`     = '',
+			`itemprop_name`    = '',
+			`itemprop_des`     = '',
+			`itemprop_text`    = '',
+			`itemprop_date`    = '',
+			`itemprop_views`   = '',
+			`itemprop_url`     = ''
+		
+--Field 'author' doesn't have a default value
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\mods\add_table.php
+--line: 103
+--date: 2018-04-10 05:57:17
+===================================
+
+DELETE FROM `orders` WHERE `data_id` = 65 AND `user_id` = 1
+--Truncated incorrect DOUBLE value: '127.0.0.1nosession'
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\shop\ordering.php
+--line: 59
+--date: 2018-04-17 08:27:19
+===================================
+
+UPDATE `data` SET
+			`module_id`    = '12',
+			`template_id`  = '22',
+			`cat`          = 0,
+			`text`         = '<p>dfgdfgdfgdfg</p>',
+			`date`         = NOW(),
+			WHERE `id`     = '93'
+	
+--You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id`     = '93'' at line 7
+--file: C:\Openserver\OpenServer\domains\goframework.last\modules\mods\edit_one.php
+--line: 14
+--date: 2018-04-20 06:57:01
+===================================
+

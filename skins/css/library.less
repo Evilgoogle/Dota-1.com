@@ -1,0 +1,410 @@
+@import "../../skins/components/bower/lesshat/build/lesshat";
+
+body {
+  background-color: black;
+}
+.clear {
+  clear: both;
+}
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+@team-color:#a09da0;    ///939295    ///9c999c /// 9e9b9e ideal  // a09da0 last
+@team-color-white: #7c8187;
+
+/*display*/
+.disp {
+  position: relative;
+  display: none;
+  z-index: 10;
+  .info {
+    width: 400px;
+    height: 46px;
+    background-image: url("/skins/img/disp_info.png");
+    .border-radius(7px);
+    position: fixed;
+    top: 202px;
+    right: 130px;
+    float: left;
+    font-weight: bold;
+    font-family: liberation_sansregular;
+    letter-spacing: 0.2px;
+    padding: 13px 0px 0px 40px;
+    color: #575e64;
+    .background-size(cover);
+    @media screen and (max-width: 638px) {
+      width: 350px;
+      height: 40px;
+      right: 70px;
+      padding: 10px 0px 0px 40px;
+    }
+    @media screen and (max-width: 478px) {
+      width: 220px;
+      font-size: 11px;
+      padding: 12px 0px 0px 30px;
+    }
+  }
+  .close_x {
+    width: 74px;
+    height: 50px;
+    background-image: url(/skins/img/disp_ok.png);
+    float: left;
+    position: fixed;
+    top: 200px;
+    right: 70px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    color: #333;
+    cursor: pointer;
+    .background-size(cover);
+    @media screen and (max-width: 638px) {
+      width: 59px;
+      height: 40px;
+      right: 20px;
+      top: 201px;
+    }
+  }
+}
+/**/
+
+p {
+  color: @team-color;
+  font-family: liberation_sansregular;
+  font-size: 14px;
+  line-height: 22.2px;
+  letter-spacing: 0.32px;
+}
+.rog { // img circle-rog
+  width: 69px;
+  height: 59px;
+  background-image: url("/skins/img/rog.png");
+}
+.dota_hero {
+  border: 1px solid#31363b;
+  .background-image(linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(120,120,120,0.15) 3%, rgba(48,48,48,0.15) 6%, rgba(0,0,0,0.15) 10%, rgba(0,0,0,0.15) 90%, rgba(71,71,71,0.15) 96%, rgba(120,120,120,0.15) 98%, rgba(255,255,255,0.15) 100%));
+  padding: 4px;
+  .border-radius(7px);
+}
+/*.cropper-container {
+  width: 100% !important;
+}*/
+.empty {
+  width: 220px;
+  height: 62px;
+  &:extend(.clearfix all);
+  .background-image(linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(120, 120, 120, 0.15) 3%, rgba(48, 48, 48, 0.15) 6%, rgba(0, 0, 0, 0.15) 10%, rgba(0, 0, 0, 0.15) 90%, rgba(71, 71, 71, 0.15) 96%, rgba(120, 120, 120, 0.15) 98%, rgba(255, 255, 255, 0.15) 100%));
+  margin-top: 15px;
+  padding: 5px 0px 0px 5px;
+  .border-radius(7px);
+  .pic {
+    .rog;
+    float: left;
+  }
+  .block {
+    float: left;
+    margin: 16px 0px 0px 15px;
+    color: #7c7c7c;
+    font-family: @team-font-famaly;
+    font-weight: bold;
+  }
+}
+
+@font-face {
+  font-family: 'liberation_sansregular';
+  src: url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.eot');
+  src: url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.woff2') format('woff2'),
+  url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.woff') format('woff'),
+  url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.ttf') format('truetype'),
+  url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.svg#liberation_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//@team-font-famaly:normal 14px/1.7em arial;
+@team-font-famaly: liberation_sansregular;
+
+.error_info {
+  padding: 7px;
+  .background-image(linear-gradient(to bottom, rgba(255,255,255,0.3) 0%, rgba(122,78,78,0.3) 3%, rgba(66,23,23,0.3) 6%, rgba(36,8,8,0.3) 10%, rgba(36,8,8,0.3) 90%, rgba(66,23,23,0.3) 96%, rgba(122,78,78,0.3) 98%, rgba(255,255,255,0.3) 100%));
+  .border-radius(7px);
+  margin-bottom: 10px;
+  &:extend(.clearfix all);
+  .pic_err {
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-image: url("/skins/img/info_error.png");
+  }
+  .text_err {
+    color: #7c7c7c;
+    font-family: liberation_sansregular;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    float: left;
+    margin: 10px 0px 0px 10px;
+  }
+}
+
+//Button
+.base_button {
+  width: 219px;
+  height: 74px;
+  background-image: url("/skins/img/table_button.png");
+  .background-size(cover);
+  text-align: center;
+  font-family: liberation_sansregular;
+  font-size: 16px;
+  font-weight: bold;
+  color: @team-color-white;
+  padding-top: 26px;
+  display: block;
+}
+.btn-default {
+  .background-clip (padding-box);
+  background-color: transparent;
+  border: 1px solid#101010;
+  border-right: none;
+  text-shadow: none;
+  color: #8e8e8e;
+  .background-image(linear-gradient(to bottom, rgba(151, 173, 157, 0.2) 0%, rgba(32, 48, 34, 0.2) 26%, rgba(32, 48, 34, 0.2) 72%, rgba(151, 173, 157, 0.2) 100%));
+  &:hover {
+    border: 1px solid#101010;
+    background-color: #0c0c0d;
+    color: #8e8e8e;
+  }
+}
+//Set Bootstrap button
+.btn-primary {
+  .border-radius (7px);
+  .background-clip (padding-box);
+  background-color: transparent;
+  border: 1px solid#101010;
+  border-right: none;
+  text-shadow: none;
+  margin-bottom: 10px;
+  color: #8e8e8e;
+  .background-image(linear-gradient(to bottom, rgba(163,159,178,0.2) 0%, rgba(38,33,49,0.2) 26%, rgba(38,33,49,0.2) 72%, rgba(163,159,178,0.2) 100%));
+  &:hover {
+    border: 1px solid#101010;
+    background-color: #0c0c0d;
+    color: #8e8e8e;
+  }
+}
+
+//Users form
+.form_text {
+  width: 259px;
+  height: 62px;
+  background-image: url("/skins/img/form_text.png");
+  background-color: transparent;
+  border: none;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #1d1e23;
+  padding: 0px 45px 0px 45px;
+  font-family: liberation_sansregular;
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 1px 0px 1px rgba(230, 230, 230, 1);
+  letter-spacing: 0.3px;
+  &:-moz-placeholder {
+    color: #606060;
+  }
+  &:-ms-input-placeholder {
+    color: #606060;
+  }
+  &::-webkit-input-placeholder {
+    color: #606060;
+  }
+}
+.form_ok {
+  width: 247px;
+  height: 102px;
+  margin: auto;
+  background-image: url("/skins/img/magazine_list_button.png");
+  background-color: transparent;
+  border: none;
+  span {
+    .background-image(linear-gradient(to bottom, #9ea7b8 0%, #10151a 83%, #080a0f 100%));
+    .background-clip(text);
+    color: transparent;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: -5px;
+    font-family: liberation_sansregular;
+    display: block;
+  }
+}
+
+//SET BOOTSTRAP
+.modal-content {
+  .background-image(linear-gradient(to bottom, rgba(255,255,255,0.23) 0%, rgba(120,120,120,0.23) 2%, rgba(48,48,48,0.23) 4%, rgba(0,0,0,0.23) 8%, rgba(0,0,0,0.23) 94%, rgba(92,92,92,0.23) 97%, rgba(255,255,255,0.23) 100%));
+  .border-radius(10px);
+  border: 1px solid#202223;
+  background-color: #0c0c0d;
+  position: relative;
+  .modal_fon {
+    width: 900px;
+    height: 500px;
+    background-image: url("/skins/img/modal_fon.png");
+    position: absolute;
+    opacity: 0.28;
+    margin-top: 60px;
+  }
+  .modal-header {
+    border-bottom: 1px dashed#1d1e23;
+    margin: 0px 15px 0px 15px;
+    .background-image(linear-gradient(to bottom, rgba(108,114,117,1) 0%, rgba(102,110,112,1) 28%, rgba(65,71,73,1) 87%, rgba(57,60,65,1) 100%));
+    .background-clip(text);
+    color: transparent;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: @team-font-famaly;
+    text-shadow: 0px 0.01px 0.01px rgba(135, 135, 135, 0.2);
+  }
+  .modal-header_mod {
+    position: relative;
+    border: none;
+  }
+  .modal-body_magazine {
+    position: relative;
+    padding: 0px 20px 50px 20px;
+    margin-top: -10px;
+    &:extend(.clearfix all);
+    .left_magazine {
+      width: 500px;
+      float: left;
+    }
+    .right_magazine {
+      width: 340px;
+      float: left;
+    }
+  }
+  .modal-footer {
+    border-top: 1px dashed#1d1e23;
+    margin: 0px 15px 0px 15px;
+  }
+}
+
+//Bootstrap SETs
+.thumbnail {
+  border: 1px solid#363636;
+  .background-image(linear-gradient(to bottom, rgba(150, 164, 171, 0.1) 0%, rgba(31, 41, 46, 0.1) 12%, rgba(31, 41, 46, 0.1) 87%, rgba(150, 164, 171, 0.1) 100%));
+  background-color: transparent;
+  text-align: center;
+  .img {
+    width: 242px;
+    height: 130px;
+    display: inline-block;
+    border: 1px solid#2f3032;
+    .border-radius(4px);
+    margin-top: 20px;
+  }
+  .pic_one {
+    .img;
+    background-image: url("/skins/img/adm_sel_one.jpg");
+  }
+  .pic_table {
+    .img;
+    background-image: url("/skins/img/adm_sel_table.jpg");
+  }
+  .pic_gal {
+    .img;
+    background-image: url("/skins/img/adm_sel_gal.jpg");
+  }
+  .pic_carusel {
+    .img;
+    background-image: url("/skins/img/adm_sel_carusel.jpg");
+  }
+  .pic_magazine {
+    .img;
+    background-image: url("/skins/img/adm_sel_magazine.jpg");
+  }
+  .header {
+    .background-image(linear-gradient(to bottom, rgba(108,114,117,1) 0%, rgba(102,110,112,1) 28%, rgba(65,71,73,1) 87%, rgba(57,60,65,1) 100%));
+    .background-clip(text);
+    color: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: @team-font-famaly;
+  }
+  .text {
+    height: 150px;
+    color: @team-color;
+    opacity: 0.9;
+    border: 1px dashed#1d1e23;
+    margin: 6px 0px 10px 0px;
+    display: inline-block;
+    padding: 5px;
+  }
+}
+.btn-default {
+  //.border-radius (7px);
+  .background-clip (padding-box);
+  background-color: transparent;
+  border: 1px solid#101010;
+  border-right: none;
+  text-shadow: none;
+  color: #8e8e8e;
+  .background-image(linear-gradient(to bottom, rgba(151, 173, 157, 0.2) 0%, rgba(32, 48, 34, 0.2) 26%, rgba(32, 48, 34, 0.2) 72%, rgba(151, 173, 157, 0.2) 100%));
+  &:hover {
+    border: 1px solid#101010;
+    background-color: #0c0c0d;
+    color: #8e8e8e;
+  }
+}
+.btn-primary {
+  .border-radius (7px);
+  .background-clip (padding-box);
+  background-color: transparent;
+  border: 1px solid#101010;
+  border-right: none;
+  text-shadow: none;
+  color: #8e8e8e;
+  .background-image(linear-gradient(to bottom, rgba(163,159,178,0.2) 0%, rgba(38,33,49,0.2) 26%, rgba(38,33,49,0.2) 72%, rgba(163,159,178,0.2) 100%));
+  &:hover {
+    border: 1px solid#101010;
+    background-color: #0c0c0d;
+    color: #8e8e8e;
+  }
+}
+.cropend {
+  display: none;
+  margin: 10px 0px 10px 0px;
+  overflow: auto;
+}
+//
+
+//Form
+.spoiler {
+  border: none;
+  width: 200px;
+  height: 30px;
+  .border-radius(5px);
+  margin-top: 0px;
+  color: #777777;
+  background-color: transparent;
+  font-family: @team-font-famaly;
+  font-weight: bold;
+  letter-spacing: 0.1px;
+  font-size: 13px;
+  .background-image(linear-gradient(to bottom, rgba(122, 122, 122, 0.6) 0%, rgba(17, 17, 19, 0.6) 13%, rgba(17, 17, 19, 0.6) 86%, rgba(65, 65, 66, 0.6) 100%));
+}
+.form_button {
+  .base_button;
+  border: none;
+  padding-top: 0px;
+  background-color: transparent;
+  @media screen and (max-width: 478px) {
+    margin-left: -10px;
+  }
+}

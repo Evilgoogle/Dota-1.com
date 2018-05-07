@@ -1,0 +1,35 @@
+{
+  "name": "school-php",
+  "authors": [
+    "inpost <inpost@list.ru>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "skins/components/bower/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ckeditor": "4.8.0",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.5",
+    "respond": "~1.4.2",
+    "bootstrap": "3.3.7",
+    "fancybox": "^3.2.5",
+    "lesshat": "3.0.2",
+    "flowplayer": "6.0.5",
+    "Croppie": "croppie#^2.5.1",
+    "cropperjs": "^1.2.2",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "html5shiv": "~3.7.3"
+  }
+}

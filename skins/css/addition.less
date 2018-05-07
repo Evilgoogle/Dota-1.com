@@ -1,0 +1,40 @@
+@charset "utf-8";
+@import "../../skins/components/bower/lesshat/build/lesshat";
+
+@team-color:#7c7c7c;
+@team-color-white: #7c8187;
+
+@font-face {
+  font-family: 'liberation_sansregular';
+  src: url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.eot');
+  src: url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.woff2') format('woff2'),
+  url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.woff') format('woff'),
+  url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.ttf') format('truetype'),
+  url('/skins/libs/fonts/Liberation/liberationsans-regular-webfont.svg#liberation_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+//@team-font-famaly:normal 14px/1.7em arial;
+@team-font-famaly: liberation_sansregular;
+
+
+//Set Ckeditor
+.cke_body {
+  background-color: #151314;
+}
+p {
+  color: @team-color;
+  font-family: @team-font-famaly;
+  font-size: 14px;
+  line-height: 22.5px;
+  letter-spacing: 0.22px;
+}
+
+img {
+  .background-image(linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(120, 120, 120, 0.15) 3%, rgba(48, 48, 48, 0.15) 6%, rgba(0, 0, 0, 0.15) 10%, rgba(0, 0, 0, 0.15) 90%, rgba(71, 71, 71, 0.15) 96%, rgba(120, 120, 120, 0.15) 98%, rgba(255, 255, 255, 0.15) 100%));
+  .border-radius(7px);
+  border: 1px solid#31363b;
+  padding: 5px;
+}
